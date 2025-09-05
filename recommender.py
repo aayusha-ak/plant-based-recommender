@@ -32,7 +32,7 @@ def cleanIngredient(text):
 
 # Function to load data and get ready for recommendations
 def loadData():
-    veganRecipe = pd.read_csv("Data/vegan_recipes.csv")
+    veganRecipe = pd.read_csv("vegan_recipes.csv")
 
     # Get ingredients from dataset
     ingredientColumn = veganRecipe['ingredients']
